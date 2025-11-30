@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Basic HTML Example</title>
+    <style>
+        /* Simple styles just to show block vs inline behavior */
+        .block-example {
+            background-color: orange;
+            margin-bottom: 10px;
+        }
+
+        .inline-example {
+            background-color: rgb(229, 159, 229);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>my first page</h1>
+    <p>this is my first page with html.</p>
+
+    <div>
+        <p>First paragraph inside the div.</p>
+        <p>Second paragraph inside the div, with a <span style="background: yellow;">highlighted</span> word.</p>
+    </div>
+
+    <h2>Block vs Inline Example</h2>
+
+    <div class="block-example">
+        This is a div (block-level element).  
+        It takes the full width of its container and starts on a new line.
+    </div>
+
+    <span class="inline-example">
+        This is a span (inline element).  
+        It only takes up as much width as needed and does NOT start on a new line.
+    </span>
+    
+</body>
+</html>
